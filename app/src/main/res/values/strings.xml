@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Parcel Delivery App</string>
+    <string name="shipment">Shipments</string>
+    <string name="available_vehicle">Available Vehicle</string>
+    <string name="tracking">Tracking</string>
+    <string name="shipment_number">Shipment Number</string>
+    <string name="sender">Sender</string>
+    <string name="time">Time</string>
+    <string name="receiver">Receiver</string>
+    <string name="status">Status</string>
+    <string name="add_stop">Add Stop</string>
+    <string name="image_on_right">Image on Right</string>
+    <string name="icon">Icon</string>
+    <string name="enter_receipt_number">Enter Receipt Number...</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="available_vehicles">Available vehicles</string>
+    <string name="destination">Destination</string>
+    <string name="sender_location">Sender location</string>
+    <string name="receiver_location">Receiver location</string>
+    <string name="approx_weight">Approx weight</string>
+    <string name="dropdown_arrow">Dropdown Arrow</string>
+    <string name="categories">Categories</string>
+    <string name="what_are_you_sending">What Are You Sending</string>
+    <string name="packaging">Packaging</string>
+    <string name="calculate">Calculate</string>
+    <string name="notifications">Notifications</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="all">All</string>
+    <string name="clear_icon">Clear Icon</string>
+</resources>
