@@ -149,10 +149,8 @@ fun TextWithImageRight(
 ) {
     Row(
         modifier = Modifier
-            .fillMaxWidth()
             .padding(Dimen_16),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.SpaceBetween
+        verticalAlignment = Alignment.CenterVertically
     ) {
 
         Text(

@@ -35,6 +35,7 @@ import com.example.parceldeliveryapp.presentation.utility_views.TextWithImageRig
 import com.example.parceldeliveryapp.ui.theme.Dimen.Dimen_100
 import com.example.parceldeliveryapp.ui.theme.Dimen.Dimen_16
 import com.example.parceldeliveryapp.ui.theme.Dimen.Dimen_20
+import com.example.parceldeliveryapp.ui.theme.Dimen.Dimen_28
 import com.example.parceldeliveryapp.ui.theme.Dimen.Dimen_32
 import com.example.parceldeliveryapp.ui.theme.Dimen.Dimen_40
 import com.example.parceldeliveryapp.ui.theme.Dimen.Dimen_8
@@ -59,10 +60,10 @@ fun MoveMateScreen(navController: NavHostController) {
             // Company Name - MoveMate
             TextWithImageRight(
                 text = "MoveMate",
-                fontSize = 28.sp,
-                color = colorResource(id = R.color.purple_500),
+                fontSize = 30.sp,
+                color = colorResource(id = R.color.purple_700),
                 painter = painterResource(id = R.drawable.box),
-                imageSize = Dimen_20
+                imageSize = Dimen_32
             )
 
             Spacer(modifier = Modifier.height(Dimen_16))
