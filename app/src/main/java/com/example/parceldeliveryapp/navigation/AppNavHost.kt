@@ -54,15 +54,9 @@ fun AppNavHost(
             MoveMateScreen(navController)
         }
         composable<ScreenC>(
-            enterTransition = {
-                return@composable fadeIn(tween(1000))
-            }, exitTransition = {
+            exitTransition = {
                 return@composable fadeOut(tween(700))
-            }, popEnterTransition = {
-                return@composable slideIntoContainer(
-                    AnimatedContentTransitionScope.SlideDirection.End, tween(700)
-                )
-            }
+            },
         ) {
             SearchScreen(navController)
         }
